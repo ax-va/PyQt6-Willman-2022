@@ -20,7 +20,7 @@ class EmptyWindow(QWidget):
 # Run the program
 if __name__ == '__main__':
     # A single instance of the QApplication class is responsible for many windows
-    # or dialog boxes exist in an application.
+    # or dialog boxes existing in an application.
     # sys.argv is needed for taking command-line arguments, otherwise use [] instead.
     app = QApplication(sys.argv)
     window = EmptyWindow()
