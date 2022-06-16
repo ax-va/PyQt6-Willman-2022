@@ -2,6 +2,7 @@
 # Use sys to accept command-line arguments
 import sys
 from PyQt6.QtWidgets import QApplication, QWidget
+
 # 2. Create QApplication object
 app = QApplication(sys.argv)
 # 3. Create window from QWidget object
