@@ -6,9 +6,9 @@ class EmptyWindow(QWidget):
     def __init__(self):
         """ Constructor for Empty Window Class """
         super().__init__()
-        self.initializeUI()
+        self.initialize_ui()
 
-    def initializeUI(self):
+    def initialize_ui(self):
         """ Set up the application """
         # Set x, y, width, height as *__args
         self.setGeometry(200, 100, 400, 300)
